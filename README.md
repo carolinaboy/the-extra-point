@@ -1,1 +1,1 @@
-# the-extra-point
+# responsive-grid-template
