@@ -106,12 +106,11 @@ footer {
   }
 
   footer {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-      "map social"
-      "map gotw"
-      "signup signup"
-      "credits credits";
+      "map signup social"
+      "map signup gotw"
+      "credits credits credits";
   }
 }
 
@@ -282,7 +281,7 @@ a:active {
 form{
   color: #748892;
   font-family: 'Oswald', sans-serif;
-  text-align: center;
+  font-size: 25px;
 }
 
 /*********** End Content Styles ***********/
