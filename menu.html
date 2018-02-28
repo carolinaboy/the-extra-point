@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>The Extra Point</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <div id="logo">
+        <h1><img src="img/logo.png"></img></div></h1>
+    </header>
+
+    <main>
+      <h1>Menu</h1>
+      
+      <div id="appetizers">
+
+      </div>
+
+
+
+    </main>
+
+    <footer>
+      <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.714194588629!2d-81.0182347847863!3d33.99987418062026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bacc8b231bfd%3A0x1768b7b058c2071e!2s734+Harden+St%2C+Columbia%2C+SC+29205!5e0!3m2!1sen!2sus!4v1518709970007" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
+      <div id="signup">
+        <form action="thanks.html" method="get">
+
+
+    First name:
+    <input type="text" name="firstname">
+<br>
+<br>
+    Last name:
+    <input type="text" name="lastname">
+<br>
+<br>
+    Address:
+    <input type="text" name="address">
+<br>
+<br>
+
+    City:
+    <input type="text" name="City">
+<br>
+<br>
+
+    State:
+    <input type="text" name="state">
+<br>
+<br>
+
+    Zip:
+    <input type="text" name="zip">
+<br>
+<br>
+
+  <input type="submit" value="submit">
+
+  </form>
+      </div>
+
+    <div id="social">
+      <h2>Follow Us!!</h2>
+      <img src="img/twitter.png" alt="twitter logo">
+      <img src="img/insta.png" alt="instagram logo">
+      <img src="img/snap.png" alt="snapchat logo">
+    </div>
+
+      <div id="gotw">
+        <h2>Games on This Week</h2>
+        <p>Olympics (all week)</p>
+        <p>Suns vs Warriors</p>
+        <p>Bucks vs Hawks</p>
+        <p>Cavs vs Thunder</p>
+      </div>
+
+      <div id="credits">
+        <p>Created by Woods</p>
+        <p>Not a real site</p>
+      </div>
+
+     </footer>
+
+  </div>
+
+  <!-- first load jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- owl carousel stuff -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            dots: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause:true,
+            items: 1,
+            loop: true,
+            margin: 10,
+            nav: false
+        })
+      });
+    </script>
+
+</body>
+</html>

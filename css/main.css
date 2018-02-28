@@ -168,6 +168,10 @@ div#credits {
   grid-area: credits;
 }
 
+div#appetizers{
+  grid-area: carousel;
+}
+
 @media (max-width: 599px){
   div#signup {
     display:none;
@@ -183,6 +187,7 @@ h1 {
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
   color: #000000;
+  text-align: center;
 }
 
 h2 {
