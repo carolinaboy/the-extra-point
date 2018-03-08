@@ -50,6 +50,10 @@ main {
     "phone";
 }
 
+#page-name {
+  grid-column: span 1;
+}
+
 footer {
   /*border: 3px solid #000099; /* disable this line once layout works */
   display: grid;
@@ -79,6 +83,10 @@ footer {
       "carousel carousel";
   }
 
+  #page-name{
+    grid-column: span 2;
+  }
+
   footer {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -103,6 +111,10 @@ footer {
     grid-template-areas:
       "address menu hours phone"
       "carousel carousel carousel carousel";
+  }
+
+  #page-name{
+    grid-column: span 4;
   }
 
   footer {
@@ -168,9 +180,7 @@ div#credits {
   grid-area: credits;
 }
 
-div#appetizers{
-  grid-area: carousel;
-}
+
 
 @media (max-width: 599px){
   div#signup {
@@ -184,10 +194,11 @@ div#appetizers{
 
 /* Headings */
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'Oswald', sans-serif;
   color: #000000;
   text-align: center;
+
 }
 
 h2 {
@@ -197,11 +208,12 @@ h2 {
 }
 
 h3 {
-
+  font-size: 40px;
+  color: #ffffff;
 }
 
 h4 {
-
+  font-size: 35px;
 }
 
 h5 {
@@ -225,7 +237,8 @@ ol {
 }
 
 ul {
-
+   list-style: none;
+  line-height: 60px;
 }
 
 li {
